@@ -8,7 +8,7 @@ In the console, run "npm install petsgo.js"
 
 # Usage
 
-## Finding details of a booth
+## Fetching details of a booth
 
 ```javascript
 const fetchBooths = require('petsgo.js')
@@ -29,7 +29,7 @@ async function booths() {
 }
 ```
 
-You could also leave the parameter blank "e.g." fetchBooths(), and it will return all booths. You can do this for all functions except for fetching RAP and exist.
+You could also leave the parameter blank "e.g." fetchBooths(), and it will return all booths. You can do this for all functions except for fetching a pets RAP and exist number.
 
 ## Bugs
 
