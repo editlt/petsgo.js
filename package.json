@@ -1,6 +1,6 @@
 {
   "name": "petsgo.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API wrapper for BIG Games: PETS GO!",
   "main": "dist/index.js",
   "repository": {

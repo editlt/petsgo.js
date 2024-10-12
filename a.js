@@ -1,21 +1,21 @@
-const fetchBooths = require('./collections/fetchBooths')
-const petExists = require('./other/petExists')
-const { getExist } = require('petsim.js')
-const fetchCurrency = require('./collections/fetchCurrency')
-const fetchEffects = require('./collections/fetchEffects')
-const fetchEggs = require('./collections/fetchEggs')
-const fetchFruits = require('./collections/fetchFruits')
-const fetchGamepasses = require('./collections/fetchGamepasses')
-const fetchHoverboards = require('./collections/fetchHoverboards')
-const fetchMerchants = require('./collections/fetchMerchants')
-const fetchItems = require('./collections/fetchItems')
-const fetchPets = require('./collections/fetchPets')
-const fetchUpgrades = require('./collections/fetchUpgrades')
-const fetchVendingMachine = require('./collections/fetchVendingMachine')
+const fetchBooths = require('./src/collections/fetchBooths')
+// const petExists = require('./other/petExists')
+// const { getExist } = require('petsim.js')
+// const fetchCurrency = require('./collections/fetchCurrency')
+// const fetchEffects = require('./collections/fetchEffects')
+// const fetchEggs = require('./collections/fetchEggs')
+// const fetchFruits = require('./collections/fetchFruits')
+// const fetchGamepasses = require('./collections/fetchGamepasses')
+// const fetchHoverboards = require('./collections/fetchHoverboards')
+// const fetchMerchants = require('./collections/fetchMerchants')
+// const fetchItems = require('./collections/fetchItems')
+// const fetchPets = require('./collections/fetchPets')
+// const fetchUpgrades = require('./collections/fetchUpgrades')
+// const fetchVendingMachine = require('./collections/fetchVendingMachine')
 
 async function b() {
     const booths = await fetchBooths("Default Booth"); 
-    console.log(JSON.stringify(booths));
+    console.log(JSON.stringify(booths.configName));
 }
 
 async function a() {
@@ -84,4 +84,4 @@ async function n() {
 }
 
 
-n()
+b()
