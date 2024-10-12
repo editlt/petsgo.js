@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "API wrapper for BIG Games: PETS GO!",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/editlt/petsgo.js"
+  },
+  "bugs": {
+    "url": "https://github.com/editlt/petsgo.js/issues"
+  },
   "scripts": {
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
