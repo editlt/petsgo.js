@@ -2,7 +2,7 @@
   "name": "petsgo.js",
   "version": "1.0.2",
   "description": "API wrapper for BIG Games: PETS GO!",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/editlt/petsgo.js"
